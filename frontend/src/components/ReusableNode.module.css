@@ -1,0 +1,49 @@
+.nodeBox {
+    width: 220px;
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #1a202c;
+    transition: box-shadow 0.2s ease-in-out;
+    position: relative;
+}
+
+.nodeBox:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.nodeTitle {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #2d3748;
+    text-align: left;
+}
+
+.nodeField {
+    margin-bottom: 10px;
+}
+
+.nodeField label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #4a5568;
+}
+
+.nodeInput {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: inherit;
+    background-color: #f9fafb;
+    color: #1a202c;
+    box-sizing: border-box;
+}
